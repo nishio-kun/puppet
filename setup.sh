@@ -1,10 +1,12 @@
+cd ~
+
 apt install ffmpeg
-mkdir ~/data
+mkdir ~/movie
 
 # DensePose
 git clone https://github.com/nishio-kun/DensePose.git
-mkdir ./DensePose/input
-mkdir ./DensePose/output
+mkdir ~/DensePose/docker/input
+mkdir ~/DensePose/docker/output
 
 # vid2vid
 git clone https://github.com/nishio-kun/vid2vid.git
