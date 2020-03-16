@@ -5,6 +5,7 @@ if [[ $mov =~ ^.+/movie/([^/.]+)\..+$ ]]; then
   name=${BASH_REMATCH[1]}
 else
   echo 'usage: ~/movie/<name>.<ext>'
+  exit 1
 fi
 
 # mov to img
