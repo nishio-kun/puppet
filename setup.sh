@@ -1,6 +1,6 @@
 cd ~
 
-apt install ffmpeg
+sudo apt install -y ffmpeg
 mkdir ~/movie
 
 # DensePose
